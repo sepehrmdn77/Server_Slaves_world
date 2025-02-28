@@ -31,12 +31,12 @@ Follow these steps to get started with this project:
     ansible-playbook -i inventory playbook.yml
 
 ## Usage
-Server Configuration
+ **Server Configuration**
 
 You can configure your servers using Ansible Playbooks. Place your required Playbooks in the playbooks/ directory and run them as needed.
-Backup
+ **Backup**
 
-Backup script are located in the bash_scripts/ directory. You can run these scripts manually or schedule them using cron jobs.
+Backup script are located in the bash_scripts/backup_project/ directory. You can run these scripts manually or schedule them using cron jobs.
 Contributing
 
 We welcome contributions to this project. Please fork the repository, make your changes, and submit a pull request.
