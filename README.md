@@ -17,12 +17,18 @@ Before using this project, ensure you have the following software installed on y
 Follow these steps to get started with this project:
 
 1. **Clone the repository:**
+
     git clone https://github.com/sepehrmdn77/Server_Slaves_world.git
     cd Server_Slaves_world
+
 2. **Create virtual machines with Vagrant:**
+
     vagrant up
+
 3. **Run Ansible Playbooks:**
+
     ansible-playbook -i inventory playbook.yml
+    
 ##Usage
 Server Configuration
 
