@@ -44,4 +44,4 @@ We welcome contributions to this project. Please fork the repository, make your 
 
 ## Author
 
-Sepehr Mdn - [sepehrmdn77](https://github.com/sepehrmdn77)
+Sepehr Maadani - [sepehrmdn77](https://github.com/sepehrmdn77)
