@@ -19,7 +19,7 @@ Follow these steps to get started with this project:
 1. **Clone the repository:**
 
     git clone https://github.com/sepehrmdn77/Server_Slaves_world.git
-    
+
     cd Server_Slaves_world
 
 2. **Create virtual machines with Vagrant:**
@@ -30,7 +30,7 @@ Follow these steps to get started with this project:
 
     ansible-playbook -i inventory playbook.yml
 
-##Usage
+## Usage
 Server Configuration
 
 You can configure your servers using Ansible Playbooks. Place your required Playbooks in the playbooks/ directory and run them as needed.
