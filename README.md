@@ -34,6 +34,7 @@ Follow these steps to get started with this project:
  **Server Configuration**
 
 You can configure your servers using Ansible Playbooks. Place your required Playbooks in the playbooks/ directory and run them as needed.
+
  **Backup**
 
 Backup script are located in the bash_scripts/backup_project/ directory. You can run these scripts manually or schedule them using cron jobs.
