@@ -1,0 +1,8 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: "installing latest at"
+  ansible.builtin.apt:
+    name: "at"
+    state: present
+    update_cache: true
+  tags: "atins"

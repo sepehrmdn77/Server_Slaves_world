@@ -1,0 +1,12 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: "Copy the bash scp script to hosts"
+  ansible.builtin.copy:
+    src: /home/sepehr/DevOps-dev/bash_scripts/backup_project/backup_pr.sh
+    dest: /home/vagrant
+    mode: '0755'
+
+- name: "Execute the script"
+  ansible.builtin.shell: /home/vagrant/backup_pr.sh
+  args:
+    chdir: /home/vagrant

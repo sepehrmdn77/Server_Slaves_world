@@ -1,0 +1,11 @@
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3.12
+
+[local]
+localhost   ansible_connection=local
+[server]
+192.168.56.20   ansible_connection=ssh
+
+[slaves]
+192.168.56.21   ansible_connection=ssh
+192.168.56.22   ansible_connection=ssh

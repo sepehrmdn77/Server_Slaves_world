@@ -1,0 +1,9 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: "Set up cronjob"
+  ansible.builtin.cron:
+    name: "Backup Script"
+    minute: "0"
+    hour: "23"
+    job: "/home/vagrant/backup_pr.sh"
+    state: present
