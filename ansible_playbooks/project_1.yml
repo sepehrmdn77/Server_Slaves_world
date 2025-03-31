@@ -1,9 +1,9 @@
 ---
 - name: "Upgrading python"
-  hosts: [server,slaves]
-  become: yes
+  hosts: [server, slaves]
+  become: true
   roles:
-  - python3_role
-  - at_role
-  - scp_role
-  - cron_role
+    - python3_role
+    - at_role
+    - scp_role
+    - cron_role
